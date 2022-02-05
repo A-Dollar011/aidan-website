@@ -10,9 +10,8 @@ h1 {
 
 h2 {
     font-size: 40px;
-    margin: 50px;
+    margin: 50px 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-weight: bolder;
 }
 
