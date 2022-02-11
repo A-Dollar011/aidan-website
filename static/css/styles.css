@@ -163,6 +163,7 @@ textarea.form-control {
 .feedback {
     margin: 20px;
     color: green;
+    display: none;
 }
 
 /*Social Media*/
