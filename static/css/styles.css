@@ -160,11 +160,11 @@ textarea.form-control {
     height: auto;
 }
 
-.feedback {
-    margin: 20px;
-    color: green;
-    display: none;
-}
+/*.feedback {*/
+/*    margin: 20px;*/
+/*    color: green;*/
+/*    display: none;*/
+/*}*/
 
 /*Social Media*/
 #socials {
