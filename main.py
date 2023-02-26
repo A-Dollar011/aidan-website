@@ -7,6 +7,7 @@ app = Flask(__name__)
 OWN_EMAIL = os.environ.get("OWN_EMAIL")
 OWN_PASSWORD = os.environ.get("OWN_PASSWORD")
 TARGET_EMAIL = os.environ.get("TARGET_EMAIL")
+port = int(os.environ.get('PORT', 5000))
 
 
 @app.route('/')
@@ -51,4 +52,4 @@ def send_email(details):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=port)
